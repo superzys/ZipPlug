@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipPlug", "Assembly-CSharp.csproj", "{FD309BC2-EE7A-09B9-5F4C-50E6BB9CD870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipPlug", "Assembly-CSharp-Editor.csproj", "{CA57655F-0725-F3AD-D75E-08B8B8E98AB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD309BC2-EE7A-09B9-5F4C-50E6BB9CD870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD309BC2-EE7A-09B9-5F4C-50E6BB9CD870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD309BC2-EE7A-09B9-5F4C-50E6BB9CD870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD309BC2-EE7A-09B9-5F4C-50E6BB9CD870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA57655F-0725-F3AD-D75E-08B8B8E98AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA57655F-0725-F3AD-D75E-08B8B8E98AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA57655F-0725-F3AD-D75E-08B8B8E98AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA57655F-0725-F3AD-D75E-08B8B8E98AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

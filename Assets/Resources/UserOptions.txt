@@ -1,0 +1,120 @@
+;Altering this number will cause the app to overwrite this file with defaults
+Version 1
+
+[Gameplay]
+;Number of autosaves to keep
+AutoSaveKeepCount 10
+
+;Number of turns between autosaves
+AutoSaveFrequency 1
+
+;Whether or not to automatically end a turn when no more actions are available. (0 = off)
+AutoEndTurn 0
+
+;Game history logging level, 0 = off
+GameHistoryLogLevel 0
+
+;Sequential Game history logging level, 0 = off
+GameHistorySequentialLogLevel 0
+
+;Skips movement animations, 0 = off
+QuickMovement 0
+
+;Skips combat animations, 0 = off
+QuickCombat 1
+
+;Enables always-on screen edge scrolling, 0 = off
+EdgePan 0
+
+;Log all AI systems, 0 = off
+AI_MasterLogging 1
+
+;AI city build plot analysis logging level, 0 = off
+AICityBuildPlotLog 0
+
+;AI settlement analysis logging level (very large), 0 = off
+AISettlementEvaluationLog 0
+
+;AI diplomatic action logging level, 0 = off
+AiDiplomaticActionLog 0
+
+;Removes the 'One More Turn' option after achieving a victory.
+DisableOneMoreTurn 0
+
+;if the plot tooltip follows the mouse cursor (0 = off)
+PlotToolTipFollowsMouse 1
+
+;Look at the local player's combat on their turn. (0 = off, 1 = move camera, 2 = move and zoom camera
+LookAtPlayerTurnCombat 2
+
+;Look at the local player's combat when not their turn. (0 = off, 1 = move camera, 2 = move and zoom camera
+LookAtPlayerOffTurnCombat 1
+
+;The zoom level to use for player turn combat, 0.0 to 1.0
+LookAtPlayerTurnCombatZoomLevel 0.230000
+
+;The zoom level to use for player turn combat, 0.0 to 1.0
+LookAtPlayerOffTurnCombatZoomLevel 0.500000
+
+;Does the selection auto cycle to the next available unit? (0 = no, 1 = yes)
+AutoUnitCycle 1
+
+;How the unit cycle determines the next closest unit to cycle to. 0 = Last closest, 1 = Closest of last two.
+UnitCycleProximityType 0
+
+[Tutorial]
+;Experience level of player for tutorial prompts (1 for full, 0 for some or -1 for none).
+TutorialLevel 0
+
+;Set to 1 if the user has chosen a tutorial level
+HasChosenTutorialLevel 1
+
+[Multiplayer]
+;Player name used during local network games.
+LANPlayerName 
+
+[Logging]
+;Enable network message logging
+NetMessageLogs 1
+
+[Gameplay]
+;
+Difficulty  0
+
+;
+Era  0
+
+;
+Attack  1
+
+;
+MiniMapZoom  0
+
+;
+GridOn  1
+
+;Set to 1 to see the path a unit will traverse.
+MovementPathOn 1
+
+;
+AllPathsOn  0
+
+;
+ClipCursor  1
+
+;
+AutoDeselect  0
+
+;
+PlayVignettes  1
+
+;Set to 1 to start games in strategic view.
+StartInStrategicView 0
+
+;Modifies how fast the camera moves to the target location during 'look-at' events.
+CameraLookAtTimeScale 1.000000
+
+[Interface]
+;In-Game Clock format (0 for 12-hour, 1 for 24-hour)
+ClockFormat 0
+
