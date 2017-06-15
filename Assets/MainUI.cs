@@ -30,7 +30,11 @@ public class MainUI : MonoBehaviour
 	{
 		
 	}
-
+	/// <summary>
+	/// Buttons the click button load res.
+	/// 测试 解压 ；
+	/// 将压缩包拷贝进临时文件夹 然后解压;
+	/// </summary>
 	public void BtnClick_BtnLoadRes ()
 	{
 		LoaCopyToCatchdData ();
