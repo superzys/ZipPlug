@@ -8,6 +8,9 @@ using System.Collections.Generic;
 
 namespace ZTools
 {
+	/// <summary>
+	/// 游戏中 解压压缩包；
+	/// </summary>
 	public class LzmaTools
 	{
 		public LzmaTools ()
@@ -27,17 +30,17 @@ namespace ZTools
 		public static  bool DecompressLzma (string zipfilePath, string zipFileName, string outFilePath)
 		{
 			string destFolderPath = zipfilePath + "/" + zipFileName;
-			Debug.LogError ("wiil unCompose path = "+ destFolderPath);
+			Debug.Log ("wiil unCompose path = "+ destFolderPath);
 			FileStream compressStream = File.OpenRead(destFolderPath);//new FileStream (destFolderPath, FileMode.Open);//, FileAccess.Read
 			MemoryStream tempStream = new MemoryStream ();
-			Debug.LogError ("compressStream  len begin  = "+ compressStream.Length);
+			Debug.Log ("compressStream  len begin  = "+ compressStream.Length);
 			SevenZip.Compression.LZMA.Decoder decoder = new SevenZip.Compression.LZMA.Decoder ();
 		
 			byte[] properties = new byte[5];
 			compressStream.Read (properties, 0, 5);
 			decoder.SetDecoderProperties (properties);
 
-			Debug.LogError ("compressStream  len read5  = "+ compressStream.Length);
+			Debug.Log ("compressStream  len read5  = "+ compressStream.Length);
 
 			byte[] compressLen = new byte[8];
 			compressStream.Read (compressLen, 0, 8);
@@ -45,17 +48,17 @@ namespace ZTools
 			for (int i = 0; i < 8; i++) {
 				outsize |= (long)((byte)compressLen [i] << (8 * i));
 			}
-			Debug.LogError ("compressStream  len read8  = "+ compressStream.Length);
+			Debug.Log ("compressStream  len read8  = "+ compressStream.Length);
 
 			long compressRealLen = compressStream.Length - compressStream.Position;
-			Debug.LogError ("compressRealLen = "+ compressRealLen);
+			Debug.Log ("compressRealLen = "+ compressRealLen);
 			decoder.Code (compressStream, tempStream, compressRealLen, outsize, null);
 
 			// importtant !!!
 			tempStream.Position = 0;
 
 			try {
-				Debug.LogError("zys  try  uncompose tools tempStream.Position "+ tempStream.Position +" tempStream.Length "+ tempStream.Length);
+				Debug.Log("zys  try  uncompose tools tempStream.Position "+ tempStream.Position +" tempStream.Length "+ tempStream.Length);
 				byte[] head = new byte[1024];
 				int index = 0;
 				while (tempStream.Position != tempStream.Length) {
@@ -84,14 +87,14 @@ namespace ZTools
 						if (!Directory.Exists (filePath)) {
 							Directory.CreateDirectory (filePath);
 						}
-						Debug.LogError("warie file "+filePath+ "/" + fileName);
+						Debug.Log("warie file "+filePath+ "/" + fileName);
 						WriteToLocal (tempStream, fileSize, filePath + "/" + fileName);
 					}
 				}
 
 				tempStream.Flush ();
 				tempStream.Close ();
-				Debug.LogError("zys  end uncompose");
+				Debug.Log("zys  end uncompose");
 
 			} catch (Exception exe) {
 				Console.WriteLine ("unCompose error -->> " + exe);

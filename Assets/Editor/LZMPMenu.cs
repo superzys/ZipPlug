@@ -14,26 +14,26 @@ public class LZMPMenu : EditorWindow
 
     static List<UnityEngine.Object> resourcesLis = new List<UnityEngine.Object>();
     static Dictionary<string, UnityEngine.Object> resourcesDic = new Dictionary<string, UnityEngine.Object>();
-
+            
     UnityEngine.Object lisObj ;
     Vector2 scrollPos = new Vector2(0, 0);
     
+    
+	static List<string> autoPathArr = new List<string>();
 
-	[MenuItem("MyMenu/ComposeDataZIP")]
+	[MenuItem("Tools/AutoComposeDataZIP")]
 	private static void LZMAComposeData()
 	{
-		resourcesLis.Clear();
-		resourcesDic.Clear();
-		string filePath = 		 "Assets/Data";
-		GetAssetsToLis (filePath);
-		CompressLzma();
+		autoPathArr.Clear();
+		string filePath = 		 "./Data";
+		GetFilePathToList (filePath);
+		CompressLzmaFromDir(false);
 
-		resourcesLis.Clear();
-		resourcesDic.Clear();
+		autoPathArr.Clear();
 	}
 
 
-	[MenuItem("MyMenu/LZMA")]
+	[MenuItem("Tools/Open_LZMA_UI")]
     private static void LZMATest()
     {
 		window = EditorWindow.GetWindow<LZMPMenu>();
@@ -78,7 +78,7 @@ public class LZMPMenu : EditorWindow
 
         if (GUILayout.Button("Compress"))
         {
-            CompressLzma();
+	        CompressLzmaFromDir(true);
         }
 
         if (GUILayout.Button("DeCompress"))
@@ -86,6 +86,27 @@ public class LZMPMenu : EditorWindow
             DecompressLzma();
         }
     }
+	
+	private static void GetFilePathToList(string assetPath)
+	{
+		if(Directory.Exists(assetPath))    // i only set directory drop or drap
+		{
+			string[] filePaths = Directory.GetFiles(assetPath, "*.*", SearchOption.AllDirectories);
+			for (int i = 0; i < filePaths.Length; i++)
+			{
+				if(filePaths[i].Contains(".meta")|| filePaths[i].Contains(".DS_Store"))
+				{
+					continue;
+				}
+
+				if(!autoPathArr.Contains(filePaths[i]))
+				{
+			
+					autoPathArr.Add(filePaths[i]);
+				}
+			}
+		}
+	}
 
 	/// <summary>
 	/// collect assets to resourcesDic
@@ -107,30 +128,29 @@ public class LZMPMenu : EditorWindow
                 {
                     resourcesDic.Add(filePaths[i], AssetDatabase.LoadMainAssetAtPath(filePaths[i]));
                     resourcesLis.Add(AssetDatabase.LoadMainAssetAtPath(filePaths[i]));
+	                autoPathArr.Add(filePaths[i]);
                 }
             }
         }
     }
 
-
 	/// <summary>
-	/// Compresses the lzma.
+	/// 从缓冲的目录中压缩;
 	/// </summary>
-    private static void CompressLzma()
-    {
-        if(resourcesLis == null || resourcesLis.Count <= 0)
-        {
-            return;
-        }
-
+	/// <param name="isAssetDir"> 是否是 asset 中的目录</param>
+	private static void CompressLzmaFromDir(bool  isAssetDir)
+	{
+		if(autoPathArr == null || autoPathArr.Count <= 0)
+		{
+			return;
+		}
 		string assetBundlePath = Application.dataPath + "/StreamingAssets/Data";
 		string lzmaFilePath = assetBundlePath + "/Data." +LzmaTools.zipName;
-        if(!Directory.Exists(assetBundlePath))
-        {
-            Directory.CreateDirectory(assetBundlePath);
-        }
-
-        try
+		if(!Directory.Exists(assetBundlePath))
+		{
+			Directory.CreateDirectory(assetBundlePath);
+		}
+ try
         {
 			if(File.Exists(lzmaFilePath))
 			{
@@ -142,14 +162,24 @@ public class LZMPMenu : EditorWindow
 
             int lastIndex = Application.dataPath.LastIndexOf("/");
             string prePath = Application.dataPath.Substring(0, lastIndex + 1);
-            int filePathCount = resourcesLis.Count;
+            int filePathCount = autoPathArr.Count;
             for (int i = 0; i < filePathCount; i++)
             {
-                string assetPath = AssetDatabase.GetAssetPath(resourcesLis[i]);
+                string assetPath = autoPathArr[i];
 				if(assetPath != null && assetPath != "")
 				{
 					string filePath = prePath + assetPath;
-					string zipBundlePath = assetPath.Replace("Assets/", "");
+					string zipBundlePath = "";
+					if (isAssetDir)
+					{
+						zipBundlePath = assetPath.Replace("Assets/", "");
+					}
+					else
+					{
+						zipBundlePath = assetPath.Replace("./", "");
+						filePath = filePath.Replace("./", "");
+					}
+				
 
 					FileStream tempFileStream = File.Open(filePath, FileMode.Open);
 
@@ -192,14 +222,15 @@ public class LZMPMenu : EditorWindow
 
             AssetDatabase.Refresh(); // refresh asssets
             EditorUtility.ClearProgressBar();
+	        
+	        Debug.Log("success  compress ");
         }
         catch (Exception exe)
         {
-            Debug.Log(exe.Message);
+            Debug.LogError(exe.Message);
         }
-    }
-
-
+		
+	}
     /// <summary>
     /// decompress lzma file
     /// </summary>
@@ -231,6 +262,7 @@ public class LZMPMenu : EditorWindow
 
 
 		LzmaTools.DecompressLzma (Application.persistentDataPath + "/Data","Data."+LzmaTools.zipName,tarPath);
+	    Debug.Log("success  Decompress");
     }
 
 

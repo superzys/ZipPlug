@@ -1,0 +1,4 @@
+FunID	FunName	NeedDoneGuideID
+1	配装功能	2
+2	配天赋功能	3
+

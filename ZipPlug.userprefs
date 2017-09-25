@@ -1,13 +1,13 @@
-﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/OtherDemo/Editor/ABTest.cs">
+﻿<Properties StartupConfiguration="{FD309BC2-EE7A-09B9-5F4C-50E6BB9CD870}|Unit Tests">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/LZMPMenu.cs">
     <Files>
-      <File FileName="Assets/OtherDemo/Editor/ABTest.cs" Line="21" Column="2" />
-      <File FileName="Assets/MainUI.cs" Line="40" Column="3" />
-      <File FileName="Assets/OtherDemo/Scripts/7zip/ICoder.cs" Line="6" Column="2" />
-      <File FileName="Assets/OtherDemo/Tools/LzmaTools.cs" Line="25" Column="3" />
+      <File FileName="Assets/MainUI.cs" Line="36" Column="24" />
+      <File FileName="Assets/Editor/LZMPMenu.cs" Line="104" Column="18" />
+      <File FileName="Assets/Tools/LzmaTools.cs" Line="39" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/zys/U3DWork/Tools/ZipPlug/Assets/Editor/Test.cs" line="14" column="1" />

@@ -1,0 +1,1954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9743ac69-503d-46cd-b46b-d0d5a1de28cc" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ExcelParserEditor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Editor/ExcelParserEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="231" column="49" lean-forward="false" selection-start-line="231" selection-start-column="49" selection-end-line="231" selection-end-column="49" />
+              <folding>
+                <marker date="1506268788000" expanded="true" signature="6:283" ph="..." />
+                <marker date="1506268788000" expanded="true" signature="307:13768" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="336:431" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="437:629" ph="/// //第一列为key ... " />
+                <marker date="1506268788000" expanded="true" signature="673:13766" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="803:9542" ph="生成对应数据类" />
+                <marker date="1506268788000" expanded="true" signature="829:896" ph="/// 将选中的txt 文本生成cs 代码; ... " />
+                <marker date="1506268788000" expanded="true" signature="1014:1375" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="1117:1365" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="1204:1351" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="1385:1531" ph="/// Generate xxxBean.cs and xxxMgr.cs ... " />
+                <marker date="1506268788000" expanded="true" signature="1589:2229" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="2295:3474" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="2868:3430" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="2991:3057" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="3240:3322" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="3557:4351" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="4361:4627" ph="/// Generates the bean class. ... " />
+                <marker date="1506268788000" expanded="true" signature="4713:6328" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="4914:4997" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="5032:5097" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="5218:6279" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="5917:6153" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="6339:6466" ph="/// Generates the mgr class. ... " />
+                <marker date="1506268788000" expanded="true" signature="6527:7491" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="6726:6835" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="7501:7594" ph="/// 清除掉旧的数据集入口; ... " />
+                <marker date="1506268788000" expanded="true" signature="7636:8225" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="7822:7905" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="7940:8215" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="8281:9522" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="8471:8554" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="8666:8863" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="8880:8960" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="9149:9403" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="9420:9512" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="9655:9710" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="9821:9910" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="9965:10674" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="10061:10664" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="10242:10650" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="10386:10464" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="10684:10809" ph="/* ====================  尽量不要放excel 在unity 目录下。所以也不需要选择操作了。 ... */" />
+                <marker date="1506268788000" expanded="true" signature="10923:10974" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="11099:11149" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="11160:11318" ph="/// Xlsxs to text. ... " />
+                <marker date="1506268788000" expanded="true" signature="11373:11739" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="11476:11691" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="11749:11950" ph="/// 把一个excel文件导出txt ... " />
+                <marker date="1506268788000" expanded="true" signature="12044:13760" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="12094:13750" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="12419:12510" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="13082:13357" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="13154:13294" ph="{...}" />
+                <marker date="1506268788000" expanded="true" signature="13650:13736" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainUI.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/MainUI.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+              <folding>
+                <marker date="1506269382000" expanded="true" signature="6:216" ph="..." />
+                <marker date="1506269382000" expanded="true" signature="253:2593" ph="{...}" />
+                <marker date="1506269382000" expanded="true" signature="303:311" ph="{...}" />
+                <marker date="1506269382000" expanded="true" signature="349:424" ph="{...}" />
+                <marker date="1506269382000" expanded="true" signature="476:485" ph="{...}" />
+                <marker date="1506269382000" expanded="true" signature="487:593" ph="/// Buttons the click button load res. ... " />
+                <marker date="1506269382000" expanded="true" signature="629:662" ph="{...}" />
+                <marker date="1506269382000" expanded="true" signature="693:1178" ph="{...}" />
+                <marker date="1506269382000" expanded="true" signature="951:998" ph="{...}" />
+                <marker date="1506269382000" expanded="true" signature="1241:1877" ph="{...}" />
+                <marker date="1506269382000" expanded="true" signature="1919:2589" ph="{...}" />
+                <marker date="1506269382000" expanded="true" signature="2018:2081" ph="{...}" />
+                <marker date="1506269382000" expanded="true" signature="2088:2478" ph="{...}" />
+                <marker date="1506269382000" expanded="true" signature="2506:2570" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSetMgr.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataSetMgr.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <marker date="1506268825000" expanded="true" signature="6:78" ph="..." />
+                <marker date="1506268825000" expanded="true" signature="79:124" ph="/// 自动生成类，请不要修改; ... " />
+                <marker date="1506268825000" expanded="true" signature="157:508" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="160:221" ph="/// 前置路径。 需要设定 路径  因为不同平台不一样的; ... " />
+                <marker date="1506268825000" expanded="true" signature="266:319" ph="/// 所有的数据集管理初始化; ... " />
+                <marker date="1506268825000" expanded="true" signature="354:503" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="360:387" ph="/* 在此处自动插入各个数据集入口; ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataMgrBase.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBase/DataMgrBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="154" column="25" lean-forward="false" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
+              <folding>
+                <marker date="1506268754000" expanded="true" signature="6:115" ph="..." />
+                <marker date="1506268754000" expanded="true" signature="138:4475" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="145:354" ph="/// 第一列为key ... " />
+                <marker date="1506268754000" expanded="true" signature="424:4473" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="500:714" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="526:704" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="579:656" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="852:916" ph="/// Inits the data. ... " />
+                <marker date="1506268754000" expanded="true" signature="966:3742" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="1009:1093" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="1117:1169" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="1345:1541" ph="/* FileInfo info = new FileInfo (filePath); ... */" />
+                <marker date="1506268754000" expanded="true" signature="1612:1666" ph="/* 第一行是属性类型 ... */" />
+                <marker date="1506268754000" expanded="true" signature="1799:3704" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="1987:3690" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="2207:2285" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="2436:3531" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="2576:2666" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="2832:2922" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="3418:3509" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="3574:3672" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="3753:3887" ph="/// Gets the xlsx txt path. Need overwrite. ... " />
+                <marker date="1506268754000" expanded="true" signature="3934:3977" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="3988:4124" ph="/// Gets the type of the bean.Need overwrite. ... " />
+                <marker date="1506268754000" expanded="true" signature="4169:4214" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="4264:4467" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="4317:4383" ph="{...}" />
+                <marker date="1506268754000" expanded="true" signature="4400:4457" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IDataMgrBase.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBase/IDataMgrBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <folding>
+                <marker date="1506268586000" expanded="false" signature="6:44" ph="..." />
+                <marker date="1506268586000" expanded="true" signature="76:119" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skillTabData.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBeans/skillTabData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="657">
+              <caret line="171" column="25" lean-forward="false" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
+              <folding>
+                <marker date="1506268825000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1506268825000" expanded="true" signature="46:105" ph="/// 自动生成类。不要修改 ... " />
+                <marker date="1506268825000" expanded="true" signature="144:3166" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="176:224" ph="/// SkillID ... " />
+                <marker date="1506268825000" expanded="true" signature="248:362" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="262:302" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="315:356" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="398:448" ph="/// SkillName ... " />
+                <marker date="1506268825000" expanded="true" signature="477:595" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="491:533" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="546:589" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="629:680" ph="/// IsMustCast ... " />
+                <marker date="1506268825000" expanded="true" signature="707:827" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="721:764" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="777:821" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="857:904" ph="/// IsBuff ... " />
+                <marker date="1506268825000" expanded="true" signature="927:1039" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="941:980" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="993:1033" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="1076:1130" ph="/// CastCondition ... " />
+                <marker date="1506268825000" expanded="true" signature="1160:1286" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="1174:1220" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="1233:1280" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="1325:1381" ph="/// ActiveCondition ... " />
+                <marker date="1506268825000" expanded="true" signature="1413:1543" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="1427:1475" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="1488:1537" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="1577:1628" ph="/// EffectType ... " />
+                <marker date="1506268825000" expanded="true" signature="1655:1775" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="1669:1712" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="1725:1769" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="1810:1862" ph="/// EffectValue ... " />
+                <marker date="1506268825000" expanded="true" signature="1890:2012" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="1904:1948" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="1961:2006" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="2048:2101" ph="/// EffectValue2 ... " />
+                <marker date="1506268825000" expanded="true" signature="2130:2254" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="2144:2189" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="2202:2248" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="2291:2345" ph="/// SpecifyTarget ... " />
+                <marker date="1506268825000" expanded="true" signature="2375:2501" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="2389:2435" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="2448:2495" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="2539:2594" ph="/// SpecifyTarget2 ... " />
+                <marker date="1506268825000" expanded="true" signature="2625:2753" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="2639:2686" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="2699:2747" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="2783:2827" ph="/// Des ... " />
+                <marker date="1506268825000" expanded="true" signature="2850:2956" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="2864:2900" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="2913:2950" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="2987:3032" ph="/// des1 ... " />
+                <marker date="1506268825000" expanded="true" signature="3056:3164" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="3070:3107" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="3120:3158" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MgrSetTemplete.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Templete/MgrSetTemplete.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoData.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBeans/UserInfoData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <marker date="1506268825000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1506268825000" expanded="true" signature="46:105" ph="/// 自动生成类。不要修改 ... " />
+                <marker date="1506268825000" expanded="true" signature="144:941" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="171:214" ph="/// ID ... " />
+                <marker date="1506268825000" expanded="true" signature="233:337" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="247:282" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="295:331" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="368:411" ph="/// 名称 ... " />
+                <marker date="1506268825000" expanded="true" signature="435:543" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="449:486" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="499:537" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="570:613" ph="/// 性别 ... " />
+                <marker date="1506268825000" expanded="true" signature="633:739" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="647:683" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="696:733" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="767:810" ph="/// 资源 ... " />
+                <marker date="1506268825000" expanded="true" signature="831:939" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="845:882" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="895:933" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoMgr.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataMgr/UserInfoMgr.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding>
+                <marker date="1506268825000" expanded="true" signature="6:78" ph="..." />
+                <marker date="1506268825000" expanded="true" signature="79:124" ph="/// 自动生成类，请不要修改; ... " />
+                <marker date="1506268825000" expanded="true" signature="185:534" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="230:261" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="310:347" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="393:529" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="459:501" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skillTabMgr.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataMgr/skillTabMgr.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding>
+                <marker date="1506268825000" expanded="true" signature="6:78" ph="..." />
+                <marker date="1506268825000" expanded="true" signature="79:124" ph="/// 自动生成类，请不要修改; ... " />
+                <marker date="1506268825000" expanded="true" signature="185:535" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="230:261" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="310:347" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="393:529" ph="{...}" />
+                <marker date="1506268825000" expanded="true" signature="459:501" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lisObj</find>
+      <find>fileName</find>
+      <find>LZMA</find>
+      <find>resourcesLis</find>
+      <find>GetAssetsToLis</find>
+      <find>resourcesDic</find>
+      <find>assetPath</find>
+      <find>Datatxt</find>
+      <find>targetFile</find>
+      <find>FileDir_Excel</find>
+      <find>FileDir_DataTxt</find>
+      <find>GenerateMgrClass</find>
+      <find>DataMgrBase</find>
+      <find>GeneratePropertyBlock</find>
+      <find>DecompressLzma</find>
+      <find>ExcelParser</find>
+      <find>CompressLzmaFromAuto</find>
+      <find>GenerateBeanClass</find>
+      <find>Export_oneExcel_Txt</find>
+      <find>GenerateAllClass</find>
+      <find>GenerateDataMgrCs</find>
+      <find>info</find>
+      <find>dataBeanType</find>
+      <find>filePath</find>
+      <find>GetXlsxPath</find>
+      <find>prePath</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../UnityExcelParser-master/Assets/ExcelParser/Script/DataBase/DataMgrBase.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1B0342D8-24D5-4B30-9B9B-18C7CB386153/ef/73597b74/AssetDatabase.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBeans/skillTabData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBase/DataMgrBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBase/IDataMgrBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBeans/UserInfoData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBase/IDataBean.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataMgr/UserInfoMgr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataMgr/skillTabMgr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/LzmaTools.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C9F8153C-41DE-4F8C-BAFD-0E32F9BF6B28/c5/d1c828f7/Object.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataSetMgr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Editor/ExcelParserEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C9F8153C-41DE-4F8C-BAFD-0E32F9BF6B28/ed/7265907a/File.cs" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Tools/LzmaTools.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C9F8153C-41DE-4F8C-BAFD-0E32F9BF6B28/ed/7265907a/File.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/ExcelParser/Script/DataBeans/skillTabBean.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/ExcelParser/Script/DataMgr/UserInfoMgr.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/ExcelParser/Script/DataBeans/UserInfoBean.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/skillTabData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/ExcelParser/Script/Editor/ExcelParserEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/ExcelParser/Templete/MgrTemplete.txt" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/DataBeans/UserInfoData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/DataBeans/skillTabData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/ExcelParser/Templete/MgrSetTemplete.txt" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/DataBase/IDataMgrBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/DataSetMgr.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/DataBase/DataMgrBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/ExcelParser/Editor/ExcelParserEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/DataMgr/skillTabMgr.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/DataMgr/UserInfoMgr.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainUI.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="95" />
+    <option name="y" value="23" />
+    <option name="width" value="1662" />
+    <option name="height" value="1007" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp-Editor-firstpass" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp-Editor-firstpass" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugins" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExcelParser" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Templete" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp-Editor-firstpass" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugins" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExcelParser" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Editor" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp-Editor-firstpass" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugins" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Editor" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JetBrains" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp-Editor-firstpass" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp-Editor" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp-Editor" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugins" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExcelParser" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Templete" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp-Editor" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StreamingAssets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StreamingAssets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataMgr" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataBeans" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataBase" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugins" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZipPlug (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9743ac69-503d-46cd-b46b-d0d5a1de28cc" name="Default" comment="" />
+      <created>1506092191413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506092191413</updated>
+      <workItem from="1506092193788" duration="1586000" />
+      <workItem from="1506093847847" duration="3033000" />
+      <workItem from="1506097740919" duration="380000" />
+      <workItem from="1506098146524" duration="77000" />
+      <workItem from="1506135271075" duration="30319000" />
+      <workItem from="1506231631994" duration="332000" />
+      <workItem from="1506240067768" duration="3557000" />
+      <workItem from="1506259621568" duration="9162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="48446000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="95" y="23" width="1662" height="1007" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21419753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1808642" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.315847" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs</url>
+          <line>164</line>
+          <properties startOffset="4441" endOffset="4479" documentPath="$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs</url>
+          <line>201</line>
+          <properties startOffset="5594" endOffset="5620" documentPath="$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs</url>
+          <line>212</line>
+          <properties startOffset="6009" endOffset="6049" documentPath="$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs</url>
+          <line>126</line>
+          <properties startOffset="3198" endOffset="3513" documentPath="$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Editor/ExcelParserEditor.cs</url>
+          <line>275</line>
+          <properties startOffset="8568" endOffset="8607" documentPath="$PROJECT_DIR$/Assets/Plugins/ExcelParser/Editor/ExcelParserEditor.cs" />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="25" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Mono Debugger">
+        <watch expression="ctStr" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Editor/ExcelParserEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506268788000" expanded="true" signature="6:283" ph="..." />
+            <marker date="1506268788000" expanded="true" signature="307:13768" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="336:431" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="437:629" ph="/// //第一列为key ... " />
+            <marker date="1506268788000" expanded="true" signature="673:13766" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="803:9542" ph="生成对应数据类" />
+            <marker date="1506268788000" expanded="true" signature="829:896" ph="/// 将选中的txt 文本生成cs 代码; ... " />
+            <marker date="1506268788000" expanded="true" signature="1014:1375" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="1117:1365" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="1204:1351" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="1385:1531" ph="/// Generate xxxBean.cs and xxxMgr.cs ... " />
+            <marker date="1506268788000" expanded="true" signature="1589:2229" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="2295:3474" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="2868:3430" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="2991:3057" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="3240:3322" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="3557:4351" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="4361:4627" ph="/// Generates the bean class. ... " />
+            <marker date="1506268788000" expanded="true" signature="4713:6328" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="4914:4997" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="5032:5097" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="5218:6279" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="5917:6153" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="6339:6466" ph="/// Generates the mgr class. ... " />
+            <marker date="1506268788000" expanded="true" signature="6527:7491" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="6726:6835" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="7501:7594" ph="/// 清除掉旧的数据集入口; ... " />
+            <marker date="1506268788000" expanded="true" signature="7636:8225" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="7822:7905" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="7940:8215" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="8281:9522" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="8471:8554" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="8666:8863" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="8880:8960" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="9149:9403" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="9420:9512" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="9655:9710" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="9821:9910" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="9965:10674" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="10061:10664" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="10242:10650" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="10386:10464" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="10684:10809" ph="/* ====================  尽量不要放excel 在unity 目录下。所以也不需要选择操作了。 ... */" />
+            <marker date="1506268788000" expanded="true" signature="10923:10974" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="11099:11149" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="11160:11318" ph="/// Xlsxs to text. ... " />
+            <marker date="1506268788000" expanded="true" signature="11373:11739" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="11476:11691" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="11749:11950" ph="/// 把一个excel文件导出txt ... " />
+            <marker date="1506268788000" expanded="true" signature="12044:13760" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="12094:13750" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="12419:12510" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="13082:13357" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="13154:13294" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="13650:13736" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Templete/MgrTemplete.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Templete/MgrSetTemplete.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataMgr/skillTabMgr.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1506268825000" expanded="true" signature="6:78" ph="..." />
+            <marker date="1506268825000" expanded="true" signature="79:124" ph="/// 自动生成类，请不要修改; ... " />
+            <marker date="1506268825000" expanded="true" signature="185:535" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="230:261" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="310:347" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="393:529" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="459:501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBase/IDataBean.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1474867672000" expanded="false" signature="6:44" ph="..." />
+            <marker date="1474867672000" expanded="true" signature="67:104" ph="{...}" />
+            <marker date="1474867672000" expanded="true" signature="97:102" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBeans/skillTabData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <marker date="1506268825000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1506268825000" expanded="true" signature="46:105" ph="/// 自动生成类。不要修改 ... " />
+            <marker date="1506268825000" expanded="true" signature="144:3166" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="176:224" ph="/// SkillID ... " />
+            <marker date="1506268825000" expanded="true" signature="248:362" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="262:302" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="315:356" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="398:448" ph="/// SkillName ... " />
+            <marker date="1506268825000" expanded="true" signature="477:595" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="491:533" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="546:589" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="629:680" ph="/// IsMustCast ... " />
+            <marker date="1506268825000" expanded="true" signature="707:827" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="721:764" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="777:821" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="857:904" ph="/// IsBuff ... " />
+            <marker date="1506268825000" expanded="true" signature="927:1039" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="941:980" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="993:1033" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1076:1130" ph="/// CastCondition ... " />
+            <marker date="1506268825000" expanded="true" signature="1160:1286" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1174:1220" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1233:1280" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1325:1381" ph="/// ActiveCondition ... " />
+            <marker date="1506268825000" expanded="true" signature="1413:1543" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1427:1475" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1488:1537" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1577:1628" ph="/// EffectType ... " />
+            <marker date="1506268825000" expanded="true" signature="1655:1775" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1669:1712" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1725:1769" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1810:1862" ph="/// EffectValue ... " />
+            <marker date="1506268825000" expanded="true" signature="1890:2012" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1904:1948" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1961:2006" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2048:2101" ph="/// EffectValue2 ... " />
+            <marker date="1506268825000" expanded="true" signature="2130:2254" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2144:2189" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2202:2248" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2291:2345" ph="/// SpecifyTarget ... " />
+            <marker date="1506268825000" expanded="true" signature="2375:2501" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2389:2435" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2448:2495" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2539:2594" ph="/// SpecifyTarget2 ... " />
+            <marker date="1506268825000" expanded="true" signature="2625:2753" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2639:2686" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2699:2747" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2783:2827" ph="/// Des ... " />
+            <marker date="1506268825000" expanded="true" signature="2850:2956" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2864:2900" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2913:2950" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2987:3032" ph="/// des1 ... " />
+            <marker date="1506268825000" expanded="true" signature="3056:3164" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="3070:3107" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="3120:3158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBase/DataMgrBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <marker date="1506268754000" expanded="true" signature="6:115" ph="..." />
+            <marker date="1506268754000" expanded="true" signature="138:4475" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="145:354" ph="/// 第一列为key ... " />
+            <marker date="1506268754000" expanded="true" signature="424:4473" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="500:714" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="526:704" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="579:656" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="852:916" ph="/// Inits the data. ... " />
+            <marker date="1506268754000" expanded="true" signature="966:3742" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="1009:1093" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="1117:1169" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="1345:1541" ph="/* FileInfo info = new FileInfo (filePath); ... */" />
+            <marker date="1506268754000" expanded="true" signature="1612:1666" ph="/* 第一行是属性类型 ... */" />
+            <marker date="1506268754000" expanded="true" signature="1799:3704" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="1987:3690" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="2207:2285" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="2436:3531" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="2576:2666" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="2832:2922" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="3418:3509" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="3574:3672" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="3753:3887" ph="/// Gets the xlsx txt path. Need overwrite. ... " />
+            <marker date="1506268754000" expanded="true" signature="3934:3977" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="3988:4124" ph="/// Gets the type of the bean.Need overwrite. ... " />
+            <marker date="1506268754000" expanded="true" signature="4169:4214" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="4264:4467" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="4317:4383" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="4400:4457" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataMgr/UserInfoMgr.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1506268825000" expanded="true" signature="6:78" ph="..." />
+            <marker date="1506268825000" expanded="true" signature="79:124" ph="/// 自动生成类，请不要修改; ... " />
+            <marker date="1506268825000" expanded="true" signature="185:534" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="230:261" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="310:347" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="393:529" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="459:501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBase/IDataMgrBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <marker date="1506268586000" expanded="false" signature="6:44" ph="..." />
+            <marker date="1506268586000" expanded="true" signature="76:119" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MainUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Script/Editor/ExcelParserEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tools/LzmaTools.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="93" column="53" lean-forward="false" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <marker date="1506156963000" expanded="true" signature="6:194" ph="..." />
+            <marker date="1506156963000" expanded="true" signature="232:8107" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="695:843" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="914:1028" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1046:2105" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1250:1362" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1430:1777" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1549:1601" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1656:1729" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1817:1905" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1948:2004" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2049:2099" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2164:2599" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2241:2596" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2382:2592" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2463:2490" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2535:2587" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2602:2716" ph="/// collect assets to resourcesDic ... " />
+            <marker date="1506156963000" expanded="true" signature="2773:3543" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2859:3537" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3024:3527" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3114:3180" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3241:3513" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3546:3645" ph="/// 从缓冲的目录中压缩; ... " />
+            <marker date="1506156963000" expanded="true" signature="3704:6642" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3759:3778" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3965:4020" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4025:6545" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4068:4109" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4531:5551" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4641:5536" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4744:4814" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4824:4934" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="5895:5996" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="6575:6636" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="6647:6708" ph="/// decompress lzma file ... " />
+            <marker date="1506156963000" expanded="true" signature="6749:7709" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7124:7161" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7211:7548" ph="/* yield return null; ... */" />
+            <marker date="1506156963000" expanded="true" signature="7716:7766" ph="/// call back ... " />
+            <marker date="1506156963000" expanded="true" signature="7821:8102" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7967:8096" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MainUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Script/Editor/ExcelParserEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tools/LzmaTools.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="93" column="53" lean-forward="false" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <marker date="1506156963000" expanded="true" signature="6:194" ph="..." />
+            <marker date="1506156963000" expanded="true" signature="232:8107" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="695:843" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="914:1028" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1046:2105" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1250:1362" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1430:1777" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1549:1601" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1656:1729" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1817:1905" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1948:2004" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2049:2099" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2164:2599" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2241:2596" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2382:2592" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2463:2490" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2535:2587" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2602:2716" ph="/// collect assets to resourcesDic ... " />
+            <marker date="1506156963000" expanded="true" signature="2773:3543" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2859:3537" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3024:3527" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3114:3180" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3241:3513" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3546:3645" ph="/// 从缓冲的目录中压缩; ... " />
+            <marker date="1506156963000" expanded="true" signature="3704:6642" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3759:3778" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3965:4020" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4025:6545" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4068:4109" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4531:5551" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4641:5536" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4744:4814" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4824:4934" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="5895:5996" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="6575:6636" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="6647:6708" ph="/// decompress lzma file ... " />
+            <marker date="1506156963000" expanded="true" signature="6749:7709" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7124:7161" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7211:7548" ph="/* yield return null; ... */" />
+            <marker date="1506156963000" expanded="true" signature="7716:7766" ph="/// call back ... " />
+            <marker date="1506156963000" expanded="true" signature="7821:8102" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7967:8096" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MainUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Script/Editor/ExcelParserEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tools/LzmaTools.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="93" column="53" lean-forward="false" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2265">
+          <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+          <folding>
+            <marker date="1506156963000" expanded="true" signature="6:194" ph="..." />
+            <marker date="1506156963000" expanded="true" signature="232:8107" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="695:843" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="914:1028" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1046:2105" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1250:1362" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1430:1777" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1549:1601" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1656:1729" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1817:1905" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1948:2004" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2049:2099" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2164:2599" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2241:2596" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2382:2592" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2463:2490" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2535:2587" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2602:2716" ph="/// collect assets to resourcesDic ... " />
+            <marker date="1506156963000" expanded="true" signature="2773:3543" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2859:3537" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3024:3527" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3114:3180" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3241:3513" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3546:3645" ph="/// 从缓冲的目录中压缩; ... " />
+            <marker date="1506156963000" expanded="true" signature="3704:6642" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3759:3778" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3965:4020" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4025:6545" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4068:4109" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4531:5551" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4641:5536" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4744:4814" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4824:4934" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="5895:5996" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="6575:6636" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="6647:6708" ph="/// decompress lzma file ... " />
+            <marker date="1506156963000" expanded="true" signature="6749:7709" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7124:7161" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7211:7548" ph="/* yield return null; ... */" />
+            <marker date="1506156963000" expanded="true" signature="7716:7766" ph="/// call back ... " />
+            <marker date="1506156963000" expanded="true" signature="7821:8102" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7967:8096" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tools/LzmaTools.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="54" lean-forward="false" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1506156963000" expanded="true" signature="6:194" ph="..." />
+            <marker date="1506156963000" expanded="true" signature="232:8107" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="695:843" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="914:1028" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1046:2105" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1250:1362" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1430:1777" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1549:1601" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1656:1729" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1817:1905" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1948:2004" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2049:2099" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2164:2599" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2241:2596" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2382:2592" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2463:2490" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2535:2587" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2602:2716" ph="/// collect assets to resourcesDic ... " />
+            <marker date="1506156963000" expanded="true" signature="2773:3543" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2859:3537" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3024:3527" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3114:3180" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3241:3513" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3546:3645" ph="/// 从缓冲的目录中压缩; ... " />
+            <marker date="1506156963000" expanded="true" signature="3704:6642" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3759:3778" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3965:4020" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4025:6545" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4068:4109" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4531:5551" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4641:5536" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4744:4814" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4824:4934" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="5895:5996" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="6575:6636" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="6647:6708" ph="/// decompress lzma file ... " />
+            <marker date="1506156963000" expanded="true" signature="6749:7709" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7124:7161" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7211:7548" ph="/* yield return null; ... */" />
+            <marker date="1506156963000" expanded="true" signature="7716:7766" ph="/// call back ... " />
+            <marker date="1506156963000" expanded="true" signature="7821:8102" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7967:8096" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MainUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1B0342D8-24D5-4B30-9B9B-18C7CB386153/ef/73597b74/AssetDatabase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="402" column="44" lean-forward="false" selection-start-line="402" selection-start-column="44" selection-end-line="402" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C9F8153C-41DE-4F8C-BAFD-0E32F9BF6B28/ed/7265907a/File.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Script/DataBeans/skillTabBean.cs" />
+    <entry file="file://$PROJECT_DIR$/../UnityExcelParser-master/Assets/ExcelParser/Script/DataBase/DataMgrBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Script/DataBase/DataMgrBase.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Script/DataBase/IDataBean.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Script/DataBase/IDataMgrBase.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Script/DataMgr/UserInfoMgr.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Script/DataBeans/UserInfoBean.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Script/Editor/ExcelParserEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/LZMPMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="263" column="29" lean-forward="false" selection-start-line="263" selection-start-column="29" selection-end-line="263" selection-end-column="29" />
+          <folding>
+            <marker date="1506156963000" expanded="true" signature="6:194" ph="..." />
+            <marker date="1506156963000" expanded="true" signature="232:8107" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="695:843" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="914:1028" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1046:2105" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1250:1362" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1430:1777" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1549:1601" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1656:1729" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1817:1905" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="1948:2004" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2049:2099" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2164:2599" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2241:2596" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2382:2592" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2463:2490" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2535:2587" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2602:2716" ph="/// collect assets to resourcesDic ... " />
+            <marker date="1506156963000" expanded="true" signature="2773:3543" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="2859:3537" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3024:3527" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3114:3180" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3241:3513" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3546:3645" ph="/// 从缓冲的目录中压缩; ... " />
+            <marker date="1506156963000" expanded="true" signature="3704:6642" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3759:3778" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="3965:4020" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4025:6545" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4068:4109" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4531:5551" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4641:5536" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4744:4814" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="4824:4934" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="5895:5996" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="6575:6636" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="6647:6708" ph="/// decompress lzma file ... " />
+            <marker date="1506156963000" expanded="true" signature="6749:7709" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7124:7161" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7211:7548" ph="/* yield return null; ... */" />
+            <marker date="1506156963000" expanded="true" signature="7716:7766" ph="/// call back ... " />
+            <marker date="1506156963000" expanded="true" signature="7821:8102" ph="{...}" />
+            <marker date="1506156963000" expanded="true" signature="7967:8096" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tools/LzmaTools.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/skillTabData.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBeans/UserInfoBean.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Templete/MgrTemplete.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C9F8153C-41DE-4F8C-BAFD-0E32F9BF6B28/c5/d1c828f7/Object.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="54" column="39" lean-forward="true" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBase/IDataBean.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <marker date="1474867672000" expanded="false" signature="6:44" ph="..." />
+            <marker date="1474867672000" expanded="true" signature="67:104" ph="{...}" />
+            <marker date="1474867672000" expanded="true" signature="97:102" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBeans/skillTabData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="171" column="25" lean-forward="false" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
+          <folding>
+            <marker date="1506268825000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1506268825000" expanded="true" signature="46:105" ph="/// 自动生成类。不要修改 ... " />
+            <marker date="1506268825000" expanded="true" signature="144:3166" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="176:224" ph="/// SkillID ... " />
+            <marker date="1506268825000" expanded="true" signature="248:362" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="262:302" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="315:356" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="398:448" ph="/// SkillName ... " />
+            <marker date="1506268825000" expanded="true" signature="477:595" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="491:533" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="546:589" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="629:680" ph="/// IsMustCast ... " />
+            <marker date="1506268825000" expanded="true" signature="707:827" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="721:764" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="777:821" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="857:904" ph="/// IsBuff ... " />
+            <marker date="1506268825000" expanded="true" signature="927:1039" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="941:980" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="993:1033" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1076:1130" ph="/// CastCondition ... " />
+            <marker date="1506268825000" expanded="true" signature="1160:1286" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1174:1220" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1233:1280" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1325:1381" ph="/// ActiveCondition ... " />
+            <marker date="1506268825000" expanded="true" signature="1413:1543" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1427:1475" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1488:1537" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1577:1628" ph="/// EffectType ... " />
+            <marker date="1506268825000" expanded="true" signature="1655:1775" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1669:1712" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1725:1769" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1810:1862" ph="/// EffectValue ... " />
+            <marker date="1506268825000" expanded="true" signature="1890:2012" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1904:1948" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="1961:2006" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2048:2101" ph="/// EffectValue2 ... " />
+            <marker date="1506268825000" expanded="true" signature="2130:2254" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2144:2189" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2202:2248" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2291:2345" ph="/// SpecifyTarget ... " />
+            <marker date="1506268825000" expanded="true" signature="2375:2501" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2389:2435" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2448:2495" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2539:2594" ph="/// SpecifyTarget2 ... " />
+            <marker date="1506268825000" expanded="true" signature="2625:2753" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2639:2686" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2699:2747" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2783:2827" ph="/// Des ... " />
+            <marker date="1506268825000" expanded="true" signature="2850:2956" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2864:2900" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2913:2950" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="2987:3032" ph="/// des1 ... " />
+            <marker date="1506268825000" expanded="true" signature="3056:3164" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="3070:3107" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="3120:3158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Templete/MgrSetTemplete.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBase/IDataMgrBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <marker date="1506268586000" expanded="false" signature="6:44" ph="..." />
+            <marker date="1506268586000" expanded="true" signature="76:119" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBeans/UserInfoData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1506268825000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1506268825000" expanded="true" signature="46:105" ph="/// 自动生成类。不要修改 ... " />
+            <marker date="1506268825000" expanded="true" signature="144:941" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="171:214" ph="/// ID ... " />
+            <marker date="1506268825000" expanded="true" signature="233:337" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="247:282" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="295:331" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="368:411" ph="/// 名称 ... " />
+            <marker date="1506268825000" expanded="true" signature="435:543" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="449:486" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="499:537" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="570:613" ph="/// 性别 ... " />
+            <marker date="1506268825000" expanded="true" signature="633:739" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="647:683" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="696:733" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="767:810" ph="/// 资源 ... " />
+            <marker date="1506268825000" expanded="true" signature="831:939" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="845:882" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="895:933" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ExcelParser/Editor/ExcelParserEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="231" column="49" lean-forward="false" selection-start-line="231" selection-start-column="49" selection-end-line="231" selection-end-column="49" />
+          <folding>
+            <marker date="1506268788000" expanded="true" signature="6:283" ph="..." />
+            <marker date="1506268788000" expanded="true" signature="307:13768" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="336:431" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="437:629" ph="/// //第一列为key ... " />
+            <marker date="1506268788000" expanded="true" signature="673:13766" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="803:9542" ph="生成对应数据类" />
+            <marker date="1506268788000" expanded="true" signature="829:896" ph="/// 将选中的txt 文本生成cs 代码; ... " />
+            <marker date="1506268788000" expanded="true" signature="1014:1375" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="1117:1365" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="1204:1351" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="1385:1531" ph="/// Generate xxxBean.cs and xxxMgr.cs ... " />
+            <marker date="1506268788000" expanded="true" signature="1589:2229" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="2295:3474" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="2868:3430" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="2991:3057" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="3240:3322" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="3557:4351" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="4361:4627" ph="/// Generates the bean class. ... " />
+            <marker date="1506268788000" expanded="true" signature="4713:6328" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="4914:4997" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="5032:5097" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="5218:6279" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="5917:6153" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="6339:6466" ph="/// Generates the mgr class. ... " />
+            <marker date="1506268788000" expanded="true" signature="6527:7491" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="6726:6835" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="7501:7594" ph="/// 清除掉旧的数据集入口; ... " />
+            <marker date="1506268788000" expanded="true" signature="7636:8225" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="7822:7905" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="7940:8215" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="8281:9522" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="8471:8554" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="8666:8863" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="8880:8960" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="9149:9403" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="9420:9512" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="9655:9710" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="9821:9910" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="9965:10674" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="10061:10664" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="10242:10650" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="10386:10464" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="10684:10809" ph="/* ====================  尽量不要放excel 在unity 目录下。所以也不需要选择操作了。 ... */" />
+            <marker date="1506268788000" expanded="true" signature="10923:10974" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="11099:11149" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="11160:11318" ph="/// Xlsxs to text. ... " />
+            <marker date="1506268788000" expanded="true" signature="11373:11739" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="11476:11691" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="11749:11950" ph="/// 把一个excel文件导出txt ... " />
+            <marker date="1506268788000" expanded="true" signature="12044:13760" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="12094:13750" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="12419:12510" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="13082:13357" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="13154:13294" ph="{...}" />
+            <marker date="1506268788000" expanded="true" signature="13650:13736" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataMgr/UserInfoMgr.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <marker date="1506268825000" expanded="true" signature="6:78" ph="..." />
+            <marker date="1506268825000" expanded="true" signature="79:124" ph="/// 自动生成类，请不要修改; ... " />
+            <marker date="1506268825000" expanded="true" signature="185:534" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="230:261" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="310:347" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="393:529" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="459:501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataMgr/skillTabMgr.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <marker date="1506268825000" expanded="true" signature="6:78" ph="..." />
+            <marker date="1506268825000" expanded="true" signature="79:124" ph="/// 自动生成类，请不要修改; ... " />
+            <marker date="1506268825000" expanded="true" signature="185:535" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="230:261" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="310:347" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="393:529" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="459:501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataBase/DataMgrBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="154" column="25" lean-forward="false" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
+          <folding>
+            <marker date="1506268754000" expanded="true" signature="6:115" ph="..." />
+            <marker date="1506268754000" expanded="true" signature="138:4475" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="145:354" ph="/// 第一列为key ... " />
+            <marker date="1506268754000" expanded="true" signature="424:4473" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="500:714" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="526:704" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="579:656" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="852:916" ph="/// Inits the data. ... " />
+            <marker date="1506268754000" expanded="true" signature="966:3742" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="1009:1093" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="1117:1169" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="1345:1541" ph="/* FileInfo info = new FileInfo (filePath); ... */" />
+            <marker date="1506268754000" expanded="true" signature="1612:1666" ph="/* 第一行是属性类型 ... */" />
+            <marker date="1506268754000" expanded="true" signature="1799:3704" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="1987:3690" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="2207:2285" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="2436:3531" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="2576:2666" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="2832:2922" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="3418:3509" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="3574:3672" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="3753:3887" ph="/// Gets the xlsx txt path. Need overwrite. ... " />
+            <marker date="1506268754000" expanded="true" signature="3934:3977" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="3988:4124" ph="/// Gets the type of the bean.Need overwrite. ... " />
+            <marker date="1506268754000" expanded="true" signature="4169:4214" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="4264:4467" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="4317:4383" ph="{...}" />
+            <marker date="1506268754000" expanded="true" signature="4400:4457" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataSetMgr.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <marker date="1506268825000" expanded="true" signature="6:78" ph="..." />
+            <marker date="1506268825000" expanded="true" signature="79:124" ph="/// 自动生成类，请不要修改; ... " />
+            <marker date="1506268825000" expanded="true" signature="157:508" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="160:221" ph="/// 前置路径。 需要设定 路径  因为不同平台不一样的; ... " />
+            <marker date="1506268825000" expanded="true" signature="266:319" ph="/// 所有的数据集管理初始化; ... " />
+            <marker date="1506268825000" expanded="true" signature="354:503" ph="{...}" />
+            <marker date="1506268825000" expanded="true" signature="360:387" ph="/* 在此处自动插入各个数据集入口; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MainUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+          <folding>
+            <marker date="1506269382000" expanded="true" signature="6:216" ph="..." />
+            <marker date="1506269382000" expanded="true" signature="253:2593" ph="{...}" />
+            <marker date="1506269382000" expanded="true" signature="303:311" ph="{...}" />
+            <marker date="1506269382000" expanded="true" signature="349:424" ph="{...}" />
+            <marker date="1506269382000" expanded="true" signature="476:485" ph="{...}" />
+            <marker date="1506269382000" expanded="true" signature="487:593" ph="/// Buttons the click button load res. ... " />
+            <marker date="1506269382000" expanded="true" signature="629:662" ph="{...}" />
+            <marker date="1506269382000" expanded="true" signature="693:1178" ph="{...}" />
+            <marker date="1506269382000" expanded="true" signature="951:998" ph="{...}" />
+            <marker date="1506269382000" expanded="true" signature="1241:1877" ph="{...}" />
+            <marker date="1506269382000" expanded="true" signature="1919:2589" ph="{...}" />
+            <marker date="1506269382000" expanded="true" signature="2018:2081" ph="{...}" />
+            <marker date="1506269382000" expanded="true" signature="2088:2478" ph="{...}" />
+            <marker date="1506269382000" expanded="true" signature="2506:2570" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -7,6 +7,7 @@ using System.Text;
 //using UnityEditor;
 using SevenZip.Compression.LZMA;
 using System.Collections.Generic;
+using ExcelParser;
 using ZTools;
 
 public class MainUI : MonoBehaviour
@@ -43,7 +44,7 @@ public class MainUI : MonoBehaviour
 
 	void  LoaCopyToCatchdData ()
 	{
-
+		DataSetMgr.prePath = Application.persistentDataPath+"/Data";
 		string saveZipPath = Application.persistentDataPath + "/Data/Data." + LzmaTools.zipName;
 		string spriteDir = Application.persistentDataPath + "/Data";
 		if (!Directory.Exists (spriteDir)) {
@@ -51,9 +52,9 @@ public class MainUI : MonoBehaviour
 		}
 
 		string zipPath = Application.streamingAssetsPath + "/Data/Data." + LzmaTools.zipName;
-		Debug.LogError ("zys  get  zip");
+		Debug.Log("zys  get  zip");
 		StartCoroutine (CopZIPFile (zipPath, saveZipPath));
-
+		
 
 	}
 
@@ -80,8 +81,11 @@ public class MainUI : MonoBehaviour
 		#endif
 
 		bool bUnzipDone = UnCommonZip (saveZipPath);
-
-
+		Debug.Log("解压 "+ bUnzipDone);
+		
+		DataSetMgr.InitDataTab();
+		skillTabBean bean = (skillTabBean)skillTabMgr.instance._GetDataById(1);
+		Debug.Log("data is "+ bean.SkillName);
 	}
 
 	private bool  UnCommonZip (string path)
@@ -92,7 +96,7 @@ public class MainUI : MonoBehaviour
 			return true;
 		}
 		try {
-			Debug.LogError ("zys start lzmu unCompose ==  " + path);
+			Debug.Log("zys start lzmu unCompose ==  " + path);
 			string assetbundlePath = Application.persistentDataPath + "/Data";
 			string outFilePath = Application.persistentDataPath + "";
 			bool isOk =	LzmaTools.DecompressLzma (assetbundlePath, "Data." + LzmaTools.zipName, outFilePath);
